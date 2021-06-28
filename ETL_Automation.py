@@ -178,7 +178,7 @@ all_data.rename(columns={'Country/Region':'Country'}, inplace=True)
 
 
 # Use Google Sheet API credentials to authorize access 
-gc = gspread.service_account('/Users/atmavidyavirananda/Desktop/TableauProject/tableau-public-viz-d4ab8fc53665.json')
+gc = gspread.service_account('/Users/atmavidyavirananda/Desktop/tableau-public-viz-3d037cec5382.json')
 
 
 # In[35]:
