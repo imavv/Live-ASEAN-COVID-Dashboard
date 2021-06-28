@@ -5,7 +5,7 @@
 
 # ## Import libraries
 
-# In[2]:
+# In[1]:
 
 
 import gspread
@@ -174,14 +174,14 @@ all_data.rename(columns={'Country/Region':'Country'}, inplace=True)
 
 # ## Export to Google Sheets
 
-# In[34]:
+# In[2]:
 
 
 # Use Google Sheet API credentials to authorize access 
-gc = gspread.service_account('/Users/atmavidyavirananda/Desktop/TableauProject/tableau-public-viz-d4ab8fc53665.json')
+gc = gspread.service_account('/Users/atmavidyavirananda/Desktop/tableau-public-viz-3d037cec5382.json')
 
 
-# In[35]:
+# In[3]:
 
 
 # Access the premade sheet (make sure the generated credential is given editor access to the sheet)
